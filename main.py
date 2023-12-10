@@ -1,19 +1,5 @@
 import sqlite3
 import streamlit as st
-from PIL import Image
-
-img=Image.open("ttt.jpg")
-
-st.image(img,width=800)
-
-
-
-
-
-
-
-
-
 
 def create_database():
 
